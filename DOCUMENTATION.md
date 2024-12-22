@@ -43,7 +43,7 @@
      - surface: The surface the agent belongs to
 
    - **Methods**:
-     - **move()**:
+     - **move(agents)**:
        - Updates the agent's position based on its velocity, while making sure it stays on the coupled surface.
      - **interact(agents)**:
         - **Attributes**:
@@ -53,7 +53,7 @@
           - surface: The surface on which the agent is confined.
           - max_attract_distance: Radius of the area of effect for the attraction of agents. I.E. Agents outside of this distance are not affect by attraction.
           - repulse_radius: Radius of area of effect for the repulsion of agents. I.E. Agents outside of this distance are not affect by repulsion.
-     - **update()**:
+     - **update(agents)**:
        - Updates the agent's internal state after interactions and movement.
        - Add noise in the agent velocity to simulate erratic movement.
 
@@ -146,7 +146,7 @@ The attractor points themselves appear black.
 
 1. **Variation 1: [Base Surface]**
 
-   ![Variation 1](images/variation_1.jpg)
+   ![Variation 1](images/Variation_1.jpg)
 
    - **Parameters Changed**:
      - Num_agents: [100]
@@ -163,7 +163,7 @@ The attractor points themselves appear black.
 
 2. **Variation 2: [Surface Support Attractors 40 Steps]**
 
-  ![Variation 2](images/variation_2.jpg)
+  ![Variation 2](images/Variation_2.jpg)
 
    - **Parameters Changed**:
      - Num_agents: [100]
@@ -180,7 +180,7 @@ The attractor points themselves appear black.
 
 3. **Variation 3: [Surface Random Attractors 70 Steps]**
 
-  ![Variation 3](images/variation_3.jpg)
+  ![Variation 3](images/Variation_3.jpg)
 
    - **Parameters Changed**:
      - Num_agents: [100]
@@ -197,7 +197,7 @@ The attractor points themselves appear black.
 
 4. **Variation 4: [Surface Random Attractors 100 Steps]**
 
-  ![Variation 4](images/variation_4.jpg)
+  ![Variation 4](images/Variation_4.jpg)
 
    - **Parameters Changed**:
      - Num_agents: [180]
