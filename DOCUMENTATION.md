@@ -140,7 +140,7 @@
 ## Design Variations
 
 The variants all have their final agent positions colored from this gradiant:
-![Gradiant](images/gradiant.png)
+![Gradiant](images/gradiant.PNG)
 The points will turn brighter and brighter the closer they get to the attractor points.
 The attractor points themselves appear black.
 
